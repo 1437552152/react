@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from '../component/public/header';
+import Header from '../components/public/header';
 // import Footer from '../component/public/footer';
 class Base extends Component {
   render() {

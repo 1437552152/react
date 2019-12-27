@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
-import { getcountry } from '../../config/getData'
+import { getcountry } from '../../config/getData';
+import "../one.less"
 export default class One extends Component{
     constructor() {
       super();
@@ -18,7 +19,7 @@ componentDidMount(){
       const {country} = this.state;
         return (
           // <div>{this.state.country}</div>
-          <div>{country}</div>
+          <div className="test">{country}</div>
         )
 }
 }
