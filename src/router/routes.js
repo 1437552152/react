@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import { HashRouter, Route, Switch, Redirect } from 'react-router-dom';
 import Index from './index/index'
+import Two from './two/index'
 import Base from './base.js';
 class Router  extends Component{
     constructor() {
@@ -17,6 +18,7 @@ class Router  extends Component{
                             <Route>
                                 <Base></Base>
                                 <Index/>
+                                <Two />
                             </Route>
                         </div>                  
                 </Switch>
